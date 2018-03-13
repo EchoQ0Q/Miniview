@@ -1,6 +1,6 @@
 # Miniview 缩略图插件
 
-##Get Started 引入文件:
+## Get Started 引入文件:
 ```html
 <link href="miniview.css" rel="stylesheet" />
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
