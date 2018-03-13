@@ -1,0 +1,31 @@
+#miniview{
+    display: inline-block;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: #b2c9cd;
+    overflow: hidden;
+    
+}
+#miniview .view {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#miniview .view ul {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#miniview .miniview-element {
+    display: inline-block;
+    position: absolute;
+    background-color: #607a86;
+}
+#miniview .port {
+    position: absolute;
+    background-color: rgba(79,111,126,0.3);
+    z-index: 100;
+    cursor: -webkit-grab;
+}
